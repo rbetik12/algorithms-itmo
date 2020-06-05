@@ -1,8 +1,8 @@
-with open("../week9/input.txt", 'r') as file:
+with open("input.txt", 'r') as file:
     input = file.readlines()
 lines = list(map(str.strip, input))
 dic = {}
-output = open("../week9/output.txt", 'a')
+output = open("output.txt", 'a')
 for i in lines:
     key = ''
     if len(i) >= 2:
